@@ -248,11 +248,12 @@
   }
   .square {
     position: absolute;
-    top:40vw;
+    top:35vw;
     right: 0;
     text-align: center;
     width: 33.988vw;
     height: 9.643vw;
+    z-index: 2;
     background-color: rgba(162, 42, 47, 1);
   }
   .slider_container {
@@ -269,6 +270,7 @@
   }
   .slick-track {
     display: flex;
+    align-items: flex-start;
   }
   .slick-list {
     overflow: hidden;
@@ -297,17 +299,25 @@
   .slick-arrow.slick-disabled {
 
   }
-  .slick-dots {
-
+  .slider .slick-dots {
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
-  .slick-dots li {
-
+  .slider .slick-dots li {
+    list-style: none;
+    margin: 0 1vw;
   }
-  .slick-dots li.slick-active {
-
+  .slider .slick-dots li.slick-active button {
+    background-color: black;
   }
-  .slick-dots li button {
-
+  .slider .slick-dots button {
+    font-size: 0;
+    width: 1.5vw;
+    height: 1.5vw;
+    border: 0.25vw solid black;
+    border-radius:50%;
+    background-color: transparent;
   }
   .slider {
     position: relative;
