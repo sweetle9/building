@@ -256,15 +256,38 @@
     z-index: 2;
     background-color: rgba(162, 42, 47, 1);
   }
-  .text_container {
+  .text_container_1 {
     display: flex;
     justify-content: space-between;
     flex-direction: row;
     margin: 2vw 2vw;
     align-items: center;
   }
-  .text_container h1 {
+  .text_container_1 h1 {
     color:white;
+  }
+  .text_container_2 {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin: 2vw 2vw;
+    align-items: center;
+  }
+  .text_container_2 h1 {
+    color:white;
+  }
+  .text_container_3 {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin: 2vw 2vw;
+    align-items: center;
+  }
+  .text_container_3 h1 {
+    color:white;
+  }
+  .text_container_2, .text_container_3 {
+    display: none;
   }
   .p_column {
     display: flex;
