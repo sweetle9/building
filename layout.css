@@ -266,7 +266,7 @@
     /* background-color: white; */
   }
   .slick-slider {
-
+    z-index: -1;
   }
   .slick-track {
     display: flex;
@@ -302,11 +302,12 @@
   .slider .slick-dots {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: left;
+    left: 0;
   }
   .slider .slick-dots li {
     list-style: none;
-    margin: 0 1vw;
+    margin: 1vw 1vw;
   }
   .slider .slick-dots li.slick-active button {
     background-color: black;
