@@ -327,6 +327,22 @@
     z-index: 1000;
     position: absolute;
   }
+  .first {
+    margin-top:30.5vw;
+    margin-left:-29vw;
+    width: 40%;
+    height: 40%;
+    z-index: 1000;
+    position: absolute;
+  }
+  .second {
+    margin-top:30.5vw;
+    margin-left:-29vw;
+    width: 40%;
+    height: 40%;
+    z-index: 1000;
+    position: absolute;
+  }
   .slider_container {
     display: inline-block;
     position: relative;
