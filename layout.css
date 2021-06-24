@@ -134,7 +134,7 @@
     align-items: flex-end;
     position: relative;
     max-width: 87.393vw;
-    text-align: center;
+    text-align: left;
     left:0;
     right: 0;
     margin-left: 6vw;
@@ -227,7 +227,7 @@
     display: flex;
     justify-content: space-between;
     flex-direction: row;
-    align-items: center;
+    align-items: left;
   }
   .footer_body a {
     text-decoration: none;
