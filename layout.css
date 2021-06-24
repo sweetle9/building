@@ -67,7 +67,7 @@
   .header_burger {
     display: block;
     position: relative;
-    width: 6vw;
+    width: 8vw;
     height: 3vw;
     z-index: 3;
   }
@@ -434,41 +434,6 @@
     text-align: center;
     transition: all 0.5s ease-in-out 0s;
   }
-
-  /* .btn-prev, .btn-next {
-    position: relative;
-    font-family: "Montserrat";
-    font-weight: bold;
-    font-size: 6.357vw;
-    text-decoration: none;
-    background: none;
-    color: black;
-    opacity: 0.8;
-  }
-  .text_book {
-    display: inline-block;
-    width: 30%;
-    position: relative;
-    margin-left: 13vw;
-    top: -28vw;
-  }
-  .text_book p {
-    width: 41.369vw;
-    height: 15.476vw;
-    margin-top: 2vw;
-    font-size: 1.786vw;
-  }
-  .slider_buttons {
-    text-align: center;
-    position: absolute;
-    top:30vw;
-  }
-  .btn-prev {
-    left:5vw;
-  }
-  .btn-next {
-    left:75vw;
-  } */
   p {
     font-family: 'Montserrat', sans-serif; font-size: 1.429vw; font-weight: normal; vertical-align: top; text-align: left; line-height: 1.7vw;
   }
